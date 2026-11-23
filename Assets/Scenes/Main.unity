@@ -337,6 +337,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94701770a0dbbb84ab478fc316e86b27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clearDay: {fileID: 2100000, guid: 0d5771081eb9abb43b1792b52260d914, type: 2}
+  clearNight: {fileID: 2100000, guid: d1fdb8e44b28da34d9e922cca0bc740e, type: 2}
+  cloudyDay: {fileID: 2100000, guid: 8dd2f17b6e3f8174390967bc55ead836, type: 2}
+  cloudyNight: {fileID: 2100000, guid: 6eecb3bb77b3f7a43a504fceda3b0b5f, type: 2}
+  rainyDay: {fileID: 2100000, guid: 7a8675eb396637d43b4ba0a69cc715a5, type: 2}
+  rainyNight: {fileID: 2100000, guid: 8426cf3d3939a7d419671f3d5c269c0b, type: 2}
+  snowyDay: {fileID: 2100000, guid: 24d76106ebc1bd947a3fed862f899b82, type: 2}
+  snowyNight: {fileID: 2100000, guid: 48d4f62e2d5af1643a431d2f4b07ccbb, type: 2}
+  selectedCityName: 2
   cities:
   - name: Toronto
     lat: 43.6532
@@ -353,7 +362,6 @@ MonoBehaviour:
   - name: Los Angeles
     lat: 34.0522
     lon: -118.2437
-  selectedCity: 1
 --- !u!4 &1972080758
 Transform:
   m_ObjectHideFlags: 0
